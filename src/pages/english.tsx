@@ -23,21 +23,21 @@ import {
   XTH_TOKEN_ICON,
   X_CHAIN_LANDING_01,
   X_CHAIN_LANDING_02,
-  PARTNER_01_KMITL,
-  PARTNER_02_CAMT,
-  PARTNER_03_UP,
-  PARTNER_04_KKU,
-  PARTNER_05_KMUTNB,
-  PARTNER_06_SWU,
-  PARTNER_07_SUT,
-  PARTNER_09_THP,
-  PARTNER_10_SYMP,
-  PARTNER_11_ICF,
-  PARTNER_12_TERA,
-  PARTNER_13_MFEC,
-  PARTNER_14_TW,
-  PARTNER_15_NON,
-  PARTNER_16_EGCO,
+  PARTNER_01,
+  PARTNER_02,
+  PARTNER_03,
+  PARTNER_04,
+  PARTNER_05,
+  PARTNER_06,
+  PARTNER_07,
+  PARTNER_08,
+  PARTNER_09,
+  PARTNER_10,
+  PARTNER_11,
+  PARTNER_12,
+  PARTNER_13,
+  PARTNER_14,
+  PARTNER_15,
 } from "@constants/asset";
 import { Col, Row } from "antd";
 import React, { useEffect, useRef } from "react";
@@ -637,10 +637,10 @@ function English() {
                   style={{ margin: 0 }}
                 >
                   <Col>
-                    <BaseImgStyle width="225px" src={NODE_IAM} />
+                    <BaseImgStyle width="90px" src={NODE_JVC} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="90px" src={NODE_JVC} />
+                    <BaseImgStyle width="225px" src={NODE_IAM} />
                   </Col>
                   <Col>
                     <BaseImgStyle width="120px" src={NODE_DOME} />
@@ -672,69 +672,51 @@ function English() {
                   style={{ margin: 0 }}
                 >
                   <Col>
-                    <BaseImgStyle width="128px" src={PARTNER_01_KMITL} />
+                    <BaseImgStyle width="128px" src={PARTNER_01} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="82px" src={PARTNER_02_CAMT} />
+                    <BaseImgStyle width="82px" src={PARTNER_02} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="74px" src={PARTNER_03_UP} />
+                    <BaseImgStyle width="60px" src={PARTNER_03} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="50px" src={PARTNER_04_KKU} />
+                    <BaseImgStyle width="120px" src={PARTNER_04} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="100px" src={PARTNER_05_KMUTNB} />
+                    <BaseImgStyle width="80px" src={PARTNER_05} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="170px" src={PARTNER_06_SWU} />
+                    <BaseImgStyle width="80px" src={PARTNER_06} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="70px" src={PARTNER_07_SUT} />
+                    <BaseImgStyle width="110px" src={PARTNER_07} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="140px" src={PARTNER_09_THP} />
+                    <BaseImgStyle width="140px" src={PARTNER_08} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="160px" src={PARTNER_10_SYMP} />
+                    <BaseImgStyle width="100px" src={PARTNER_09} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="105px" src={PARTNER_11_ICF} />
+                    <BaseImgStyle width="160px" src={PARTNER_10} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="160px" src={PARTNER_12_TERA} />
+                    <BaseImgStyle width="130px" src={PARTNER_11} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="140px" src={PARTNER_13_MFEC} />
+                    <BaseImgStyle width="100px" src={PARTNER_12} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="120px" src={PARTNER_14_TW} />
+                    <BaseImgStyle width="110px" src={PARTNER_13} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="105px" src={PARTNER_15_NON} />
+                    <BaseImgStyle width="140px" src={PARTNER_14} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="140px" src={PARTNER_16_EGCO} />
+                    <BaseImgStyle width="140px" src={PARTNER_15} />
                   </Col>
                 </Row>
-                {/* <br />
-                <br />
-                <Row
-                  justify="center"
-                  align="middle"
-                  gutter={[80, 30]}
-                  style={{ margin: 0 }}
-                >
-                  <Col>
-                    <BaseImgStyle width="203px" src={PARTNER_SYMP} />
-                  </Col>
-                  <Col>
-                    <BaseImgStyle width="105px" src={PARTNER_ICF} />
-                  </Col>
-                  <Col>
-                    <BaseImgStyle width="203px" src={PARTNER_TERA} />
-                  </Col>
-                </Row> */}
                 <br />
                 <br />
               </SectionPartnerPanelStyle>
