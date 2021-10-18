@@ -1,0 +1,90 @@
+@import "~antd/dist/antd.less";
+
+@primary-color: #262626;
+
+@gray-color-1: #ffffff;
+@gray-color-2: #fafafa;
+@gray-color-3: #f5f5f5;
+@gray-color-4: #f0f0f0;
+@gray-color-5: #d9d9d9;
+@gray-color-6: #bfbfbf;
+@gray-color-7: #8c8c8c;
+@gray-color-8: #595959;
+@gray-color-9: #262626;
+@gray-color-10: #000000;
+
+@menu-bg: transparent;
+@menu-item-color: #fff;
+@menu-item-active-bg: #1b0485;
+@menu-highlight-color: #8130b8;
+@btn-border-radius-base: 0px;
+@menu-item-active-border-width: 0px;
+@border-width-base: 0px;
+
+@menu-popup-bg: #262626;
+
+//////////////////////////////// base style ////////////////////////////////
+:root {
+  --primary-color: @primary-color;
+
+  --gray-color-1: @gray-color-1;
+  --gray-color-2: @gray-color-2;
+  --gray-color-3: @gray-color-3;
+  --gray-color-4: @gray-color-4;
+  --gray-color-5: @gray-color-5;
+  --gray-color-6: @gray-color-6;
+  --gray-color-7: @gray-color-7;
+  --gray-color-8: @gray-color-8;
+  --gray-color-9: @gray-color-9;
+  --gray-color-10: @gray-color-10;
+
+  --base-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  --base-border-radius: 4px;
+  --base-font-size: 14px;
+}
+//////////////////////////////// base style ////////////////////////////////
+
+.ant-menu-horizontal > .ant-menu-item::after,
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  border-bottom: none !important;
+  transition: none !important;
+}
+
+// .fade-enter {
+//   opacity: 0;
+// }
+// .fade-exit {
+//   opacity: 1;
+// }
+// .fade-enter-active {
+//   opacity: 1;
+// }
+// .fade-exit-active {
+//   opacity: 0;
+// }
+// .fade-enter-active,
+// .fade-exit-active {
+//   transition: opacity 500ms;
+// }
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.fade-enter-active,
+.fade-exit-active {
+  transition: opacity 500ms, transform 500ms;
+  // transition: transform 500ms;
+}
