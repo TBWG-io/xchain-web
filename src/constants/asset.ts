@@ -40,12 +40,21 @@ export const NODE_JVC = `${BASE_SECTION_2}/node_jvc.png`;
 export const NODE_DOME = `${BASE_SECTION_2}/node_dome.png`;
 export const NODE_SATANG = `${BASE_SECTION_2}/node_satang.png`;
 
-export const PARTNER_KMITL = `${BASE_SECTION_2}/partner_kmitl.png`;
-export const PARTNER_CAMT = `${BASE_SECTION_2}/partner_camt.png`;
-export const PARTNER_UP = `${BASE_SECTION_2}/partner_up.png`;
-export const PARTNER_SYMP = `${BASE_SECTION_2}/partner_symphony.png`;
-export const PARTNER_ICF = `${BASE_SECTION_2}/partner_icon_framework.png`;
-export const PARTNER_TERA = `${BASE_SECTION_2}/partner_terabyte.png`;
+export const PARTNER_01_KMITL = `${BASE_SECTION_2}/partner_01_kmitl.png`;
+export const PARTNER_02_CAMT = `${BASE_SECTION_2}/partner_02_camt.png`;
+export const PARTNER_03_UP = `${BASE_SECTION_2}/partner_03_up.png`;
+export const PARTNER_04_KKU = `${BASE_SECTION_2}/partner_04_kku.png`;
+export const PARTNER_05_KMUTNB = `${BASE_SECTION_2}/partner_05_kmutnb.png`;
+export const PARTNER_06_SWU = `${BASE_SECTION_2}/partner_06_swu.png`;
+export const PARTNER_07_SUT = `${BASE_SECTION_2}/partner_07_sut.png`;
+export const PARTNER_09_THP = `${BASE_SECTION_2}/partner_09_thp.png`;
+export const PARTNER_10_SYMP = `${BASE_SECTION_2}/partner_10_symphony.png`;
+export const PARTNER_11_ICF = `${BASE_SECTION_2}/partner_11_icon_framework.png`;
+export const PARTNER_12_TERA = `${BASE_SECTION_2}/partner_12_terabyte.png`;
+export const PARTNER_13_MFEC = `${BASE_SECTION_2}/partner_13_mfec.png`;
+export const PARTNER_14_TW = `${BASE_SECTION_2}/partner_14_tw.png`;
+export const PARTNER_15_NON = `${BASE_SECTION_2}/partner_15_nonthavej.png`;
+export const PARTNER_16_EGCO = `${BASE_SECTION_2}/partner_16_egco.png`;
 
 /// CONNECT X CHAIN
 const BASE_CONNECT = `${BASE_IMAGE}/connect`;

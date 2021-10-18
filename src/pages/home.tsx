@@ -17,12 +17,6 @@ import {
   NODE_JVC,
   NODE_SATANG,
   NODE_TBWG,
-  PARTNER_CAMT,
-  PARTNER_ICF,
-  PARTNER_KMITL,
-  PARTNER_SYMP,
-  PARTNER_TERA,
-  PARTNER_UP,
   WHY_X_CHAIN_ICON_01,
   WHY_X_CHAIN_ICON_02,
   WHY_X_CHAIN_ICON_03,
@@ -30,6 +24,21 @@ import {
   XTH_TOKEN_ICON,
   X_CHAIN_LANDING_01,
   X_CHAIN_LANDING_02,
+  PARTNER_01_KMITL,
+  PARTNER_02_CAMT,
+  PARTNER_03_UP,
+  PARTNER_04_KKU,
+  PARTNER_05_KMUTNB,
+  PARTNER_06_SWU,
+  PARTNER_07_SUT,
+  PARTNER_09_THP,
+  PARTNER_10_SYMP,
+  PARTNER_11_ICF,
+  PARTNER_12_TERA,
+  PARTNER_13_MFEC,
+  PARTNER_14_TW,
+  PARTNER_15_NON,
+  PARTNER_16_EGCO,
 } from "@constants/asset";
 import { Col, Row } from "antd";
 import React, { useEffect, useRef } from "react";
@@ -699,16 +708,52 @@ function Home() {
                   style={{ margin: 0 }}
                 >
                   <Col>
-                    <BaseImgStyle width="128px" src={PARTNER_KMITL} />
+                    <BaseImgStyle width="128px" src={PARTNER_01_KMITL} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="82px" src={PARTNER_CAMT} />
+                    <BaseImgStyle width="82px" src={PARTNER_02_CAMT} />
                   </Col>
                   <Col>
-                    <BaseImgStyle width="74px" src={PARTNER_UP} />
+                    <BaseImgStyle width="74px" src={PARTNER_03_UP} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="50px" src={PARTNER_04_KKU} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="100px" src={PARTNER_05_KMUTNB} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="170px" src={PARTNER_06_SWU} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="70px" src={PARTNER_07_SUT} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="140px" src={PARTNER_09_THP} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="160px" src={PARTNER_10_SYMP} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="105px" src={PARTNER_11_ICF} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="160px" src={PARTNER_12_TERA} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="140px" src={PARTNER_13_MFEC} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="120px" src={PARTNER_14_TW} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="105px" src={PARTNER_15_NON} />
+                  </Col>
+                  <Col>
+                    <BaseImgStyle width="140px" src={PARTNER_16_EGCO} />
                   </Col>
                 </Row>
-                <br />
+                {/* <br />
                 <br />
                 <Row
                   justify="center"
@@ -725,7 +770,7 @@ function Home() {
                   <Col>
                     <BaseImgStyle width="203px" src={PARTNER_TERA} />
                   </Col>
-                </Row>
+                </Row> */}
                 <br />
                 <br />
               </SectionPartnerPanelStyle>
