@@ -107,9 +107,9 @@ function ConnectXChain() {
                         </Col>
                         <Col xs={22} sm={22} md={{ span: 11, pull: 11 }}>
                           <TextGray1Style size="16px" weight={400}>
-                            Network Name : xCHAINNew
+                            Network Name : xCHAIN
                             <br />
-                            RPC URL :{" "}
+                            New RPC URL :{" "}
                             <CustomTextLinkStyle
                               href="https://rpc.xchain.asia/"
                               target="_blank"
@@ -117,11 +117,11 @@ function ConnectXChain() {
                               https://rpc.xchain.asia
                             </CustomTextLinkStyle>
                             <br />
-                            Chain ID : 35Currency
+                            Chain ID : 35
                             <br />
-                            Symbol : XTHBlock
+                            Currency Symbol : XTH
                             <br />
-                            Explorer URL :{" "}
+                            Block Explorer URL :{" "}
                             <CustomTextLinkStyle
                               href="https://exp.xchain.asia/"
                               target="_blank"

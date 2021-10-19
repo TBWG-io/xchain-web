@@ -31,7 +31,7 @@ const MainPanelStyle = styled.div`
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
 
   image-rendering: crisp-edges;

@@ -18,10 +18,10 @@ function FooterMain() {
               gutter={[0, 40]}
               style={{ margin: 0 }}
             >
-              <Col>
+              <Col xs={24} md={10} style={{ textAlign: "center" }}>
                 <BaseImgStyle width="170px" src={X_CHAIN_LOGO_02} />
               </Col>
-              <Col>
+              <Col xs={24} md={10} style={{ textAlign: "center" }}>
                 <a rel="noreferrer" href="http://www.tbwg.io/" target="_blank">
                   <BaseImgStyle width="230px" src={TBWG_LOGO_02} />
                 </a>
@@ -37,8 +37,8 @@ function FooterMain() {
 
 const BottomPanelStyle = styled.div`
   padding: 20px;
-  height: 100%;
-  max-height: 200px;
+  /* height: 100%;
+  max-height: 200px; */
 `;
 
 const BaseImgStyle = styled.img<{ width?: string }>`
