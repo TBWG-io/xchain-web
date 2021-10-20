@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Row, Col } from "antd";
-import { TBWG_LOGO_02, X_CHAIN_LOGO_02 } from "@constants/asset";
+import { TBWG_LOGO_02, X_CHAIN_LOGO_03 } from "@constants/asset";
 
 function FooterMain() {
   return (
@@ -19,7 +19,7 @@ function FooterMain() {
               style={{ margin: 0 }}
             >
               <Col xs={24} md={10} style={{ textAlign: "center" }}>
-                <BaseImgStyle width="170px" src={X_CHAIN_LOGO_02} />
+                <BaseImgStyle width="170px" src={X_CHAIN_LOGO_03} />
               </Col>
               <Col xs={24} md={10} style={{ textAlign: "center" }}>
                 <a rel="noreferrer" href="http://www.tbwg.io/" target="_blank">

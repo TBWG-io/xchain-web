@@ -10,6 +10,7 @@ export const BACKGROUND_3 = `${BASE_COMMON}/background_3.jpeg`;
 const BASE_LOGO = `${BASE_IMAGE}/logo`;
 export const X_CHAIN_LOGO_01 = `${BASE_LOGO}/x_chain_logo_01.png`;
 export const X_CHAIN_LOGO_02 = `${BASE_LOGO}/x_chain_logo_02.png`;
+export const X_CHAIN_LOGO_03 = `${BASE_LOGO}/x_chain_logo_03.png`;
 export const TBWG_LOGO_02 = `${BASE_LOGO}/tbwg_logo_02.png`;
 
 /// SECTION 1

@@ -3,7 +3,7 @@ import styled, { css } from "styled-components";
 import { Menu, Row, Col } from "antd";
 import { useHistory } from "react-router-dom";
 import SubMenu from "antd/lib/menu/SubMenu";
-import { X_CHAIN_LOGO_02 } from "@constants/asset";
+import { X_CHAIN_LOGO_03 } from "@constants/asset";
 import { ROUTE } from "@constants/routes";
 import { PAGE } from "@constants/constants";
 
@@ -63,7 +63,7 @@ function HeaderMain(props: Props) {
             style={{ marginTop: "10px", marginBottom: "10px" }}
           >
             <Col xs={21} md={12}>
-              <LogoStyle src={X_CHAIN_LOGO_02} />
+              <LogoStyle src={X_CHAIN_LOGO_03} />
             </Col>
             <Col xs={3} md={12} style={{ paddingTop: "10px" }}>
               <MenuStyle
